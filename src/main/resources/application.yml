@@ -36,3 +36,10 @@ zuul:
       
       
       
+#zuul option without eureka
+#  host:
+#    max-total-connections: 200
+#zuul option with eureka
+#  ribbon-isolation-strategy: semaphore  
+#  semaphore:
+#      max-semaphores: 200
